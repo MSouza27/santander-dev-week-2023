@@ -1,7 +1,7 @@
-#Santander Dev Week
+# Santander Dev Week
 Java RESSTful criada para o santander.
 
-##Diagrama de Classes
+## Diagrama de Classes
 
 ```mermaid
 classDiagram
