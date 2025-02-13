@@ -36,7 +36,7 @@ classDiagram
     }
 
     User --> Account
-    User --> Feature : has many
+    User --> Feature
     User --> Card
-    User --> News : has many
+    User --> News 
 ``
