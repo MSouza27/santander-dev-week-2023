@@ -16,8 +16,8 @@ classDiagram
     class Account {
         -String number
         -String agency
-        -Double balance
-        -Double limit
+        -double balance
+        -double limit
     }
 
     class Feature {
@@ -27,7 +27,7 @@ classDiagram
 
     class Card {
         -String number
-        -Double limit
+        -double limit
     }
 
     class News {
@@ -38,5 +38,6 @@ classDiagram
     User "1" *--> "1" Account
     User "1" *--> "N" Feature
     User "1" *--> "1" Card
-    User "1" *--> "N" News 
+    User "1" *--> "N" News
+
 ```
