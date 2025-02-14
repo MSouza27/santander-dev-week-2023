@@ -1,4 +1,4 @@
-Spring:
+spring:
   datasource:
     url: jdbc:h2:mem:sdw2023
     username: sdw2023
@@ -18,3 +18,11 @@ Spring:
       settings:
         trace: false
         web-allow-others: false
+
+# Swagger UI configuration (se estiver usando Springdoc OpenAPI)
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
